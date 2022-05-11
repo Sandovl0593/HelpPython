@@ -1,4 +1,5 @@
-"Un ejemplo del uso del paquete 'array'"
+"""Un ejemplo del uso del paquete 'array':
+-- Describe configuraciones similares a las listas basadas en lenguaje C."""
 import array
 
 cater = input("Una frase: ")
@@ -20,4 +21,4 @@ def comparacion(frase):
     if len("".join(palabra for palabra in frase.split())) >= round(i/2):
         print("The phrase is very cool in bits")
     else:
-        print("The phrase has low coolness cool in bits")
+        print("The phrase has low coolness in bits")

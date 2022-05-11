@@ -1,4 +1,5 @@
-"Un ejemplo del uso del paquete 'argparse'"
+"""Un ejemplo del uso del paquete 'argparse': 
+-- Facilita la interacción de comandos en la interfaz del terminal mediante argumentos o parámetros de una funcionalidad API."""
 import argparse
 import os.path, random as rd
 import string as st

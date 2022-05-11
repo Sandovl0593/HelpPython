@@ -1,11 +1,11 @@
-argparse
-array
-calendar
-cmd
-colorama
-colorsys
-csv
-ctypes
+argparse  ✓✓✓
+array   ✓✓✓
+calendar   ✓✓✓
+cmd   ✓✓✓
+colorama   ✓✓✓
+colorsys  ✓✓✓
+csv   ✓✓✓
+ctypes  ✓✓✓
 curses
 curses_util
 cv2

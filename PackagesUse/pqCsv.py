@@ -1,4 +1,5 @@
-"Un ejemplo del uso del paquete 'csv'"
+"""Un ejemplo del uso del paquete 'csv': 
+-- Realiza ediciones y lecturas de archivos CSV."""
 import csv
 import random as rd
 
@@ -47,14 +48,5 @@ def randomMayus(palabra:str, porce):
     for let, vlid in zip(palabra, rm):
         n_palabra += let.upper() if vlid == 1 else let
     return n_palabra
-    
-def returnOrig():
-    distrib = arch.readlines()[0].split(",")
-    with open("pokemon.csv", newline='') as arch:
-        reader = csv.DictReader(arch, fieldnames=archiv.readlines()[0].split(","))
-        print("Ultima columna:", tuple(x["Edad"] for x in reader))
-    with open("pokemon.csv", newline='') as arch:
-        linea = csv.reader(arch, delimiter=',')
-        print("Ultima fila:\t", ", ".join(x for x in list(linea)[2]))
 
 coloqueUpper(porc)
