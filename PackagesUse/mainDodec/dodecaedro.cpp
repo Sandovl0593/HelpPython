@@ -1,6 +1,6 @@
 #include "dodecaedro.h"
 #include <math.h>
-#include "pch.h"
+// #include "pch.h"
 
 float minor_rest(float num1, float num2) {
     float red;

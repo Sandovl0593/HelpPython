@@ -1,8 +1,8 @@
 """Un ejemplo del uso del paquete 'ctypes': 
--- Proporciona funciones foráneas desde librerias C y realiza funcionalidades con ellos."""
+-- Proporciona funciones foráneas desde librerias C/C++ y otorga funcionalidades con ellos."""
 import math, time
-from ctypes.wintypes import HWND, LPCWSTR, UINT
-from ctypes import c_float, c_int, WINFUNCTYPE, windll, CDLL
+from ctypes.wintypes import *
+from ctypes import *
 
 def MoverCursor():
     "Mueve el cursor automaticamente en foma de espiral"
@@ -29,4 +29,4 @@ def medicion_dodecaedro(arista):
 
     resp = dll.med_Dodecaedro(arista)
     result = dll.minor_rest(resp[0], resp[1])
-    PresentWInput("El resultado sería"+str(result), "Respuesta")
+    PresentWInput("El resultado sería "+str(result), "Respuesta")

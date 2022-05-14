@@ -1,5 +1,6 @@
-"""Un ejemplo del uso del paquete 'cmd': Personalizacion de objetos que genera un framework con el soporte de interpretes en la
-interfaz de linea de comandos"""
+"""Un ejemplo del uso del paquete 'cmd':
+-- Personalizacion de objetos que genera un framework con el soporte
+de interpretes en la interfaz de linea de comandos"""
 import cmd
 
 def parse(arg):

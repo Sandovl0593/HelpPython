@@ -6,8 +6,7 @@ colorama   ✓✓✓
 colorsys  ✓✓✓
 csv   ✓✓✓
 ctypes  ✓✓✓
-curses
-curses_util
+curses  ✓✓✓
 cv2
 datetime
 decorator
@@ -19,6 +18,7 @@ flask
 html
 imageio
 imp
+-------------
 io
 itertools
 json
@@ -40,8 +40,10 @@ pytube
 pywhatkit
 pywifi
 random
+--------------
 re
 requests
+scrapy
 scipy
 simpleaudio
 sketchpy

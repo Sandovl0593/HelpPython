@@ -1,5 +1,6 @@
 """Un ejemplo del uso del paquete 'calendar': 
--- Muestra configuraciones y personalizaciones del calendario, ademas de ealizar calculos de fechas en tiempo real."""
+-- Muestra configuraciones y personalizaciones del calendario, ademas
+de realizar calculos de fechas en tiempo real."""
 import calendar as cd
 from datetime import datetime
 
