@@ -5,7 +5,7 @@
 - ### `forward`
 ```python
 # Mueve en línea recta una distancia
-forward(200)
+forward(100)
 ```
 - ### `right` , `left`
 ```python
